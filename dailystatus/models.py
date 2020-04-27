@@ -6,7 +6,7 @@ from dailyusers.models import StatusTrackerUser
 
 class Dailystatus(models.Model):
     user = models.ForeignKey(StatusTrackerUser, on_delete=models.CASCADE)
-    status = models.CharField(blank=True, max_length=10)
+    status = models.CharField(blank=True, max_length=50)
     startDate = models.DateTimeField()
     endDate = models.DateTimeField()
     remark = models.CharField(blank=True, max_length=250)
