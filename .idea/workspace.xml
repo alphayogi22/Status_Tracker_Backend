@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588c3409-12a4-4cbc-b6d9-d2661912eba3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gptwStatusTrackerv2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gptwStatusTrackerv2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailystatus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailystatus/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyusers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyusers/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyusers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyusers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gptwStatusTrackerv2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gptwStatusTrackerv2/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="gptwStatusTrackerv2" type="Python.DjangoServer" factoryName="Django server">
@@ -78,9 +85,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587648565391" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587648476303">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1587986551523">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587986551523" />
+    <state x="379" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1587983598400">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587648476303" />
+    <state x="379" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1587983598400" />
+    <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587995794674">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1587995794674" />
   </component>
 </project>

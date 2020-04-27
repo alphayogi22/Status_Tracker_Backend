@@ -5,4 +5,4 @@ from dailyusers.models import StatusTrackerUser
 class DailyuserSerializer(serializers.ModelSerializer):
     class Meta:
         model = StatusTrackerUser
-        fields = ['id', 'email', 'department', 'band', 'team', 'leavebalance']
+        fields = ['id', 'name', 'email', 'department', 'band', 'team', 'leavebalance']

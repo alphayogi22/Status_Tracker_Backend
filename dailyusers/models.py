@@ -18,6 +18,7 @@ class StatusTrackerUser(AbstractUser):
     band = models.CharField(blank=True, max_length=10)
     team = models.CharField(blank=True, max_length=250)
     leavebalance = models.IntegerField(null=True)
+    name = models.CharField(blank=True, max_length=255)
 
     def __str__(self):
         return self.email

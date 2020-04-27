@@ -40,8 +40,13 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_auth',
     'django.contrib.sites',
+
     'allauth',
     'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.openid',
+
+
     'rest_auth.registration',
 
     'django.contrib.admin',
@@ -52,6 +57,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework_swagger'
+
 
 ]
 
