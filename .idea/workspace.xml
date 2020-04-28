@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588c3409-12a4-4cbc-b6d9-d2661912eba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gptwStatusTrackerv2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gptwStatusTrackerv2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyusers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyusers/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyusers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyusers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyusers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailystatus/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailystatus/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailystatus/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailystatus/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gptwStatusTrackerv2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gptwStatusTrackerv2/settings.py" afterDir="false" />
     </list>
@@ -16,6 +12,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Status_Tracker_Backend_3" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,16 +74,35 @@
       <workItem from="1587551088758" duration="790000" />
       <workItem from="1587648404365" duration="157000" />
     </task>
+    <task id="LOCAL-00001" summary="API Filtering">
+      <created>1587995816706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587995816706</updated>
+    </task>
+    <task id="LOCAL-00002" summary="API Filtering">
+      <created>1587995836618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587995836618</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API Filtering" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Filtering" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1587995810821">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1587995834371">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587995810821" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587995834371" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587648565391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -93,14 +111,28 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587986551523" />
-    <state x="379" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1587983598400">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1587995891895">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1587995891895" />
+    <state x="379" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1588052513792">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587648476303" />
-    <state x="379" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1587983598400" />
+    <state x="379" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588052513792" />
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587995822598">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="492" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1587995822598" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dailyusers/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
