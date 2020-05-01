@@ -24,5 +24,8 @@ class DailyStatusViewSet(GenericViewSet,  # generic view functionality
     def get_queryset(self):
         start_date = self.request.query_params.get('startDate', None)
         end_date = self.request.query_params.get('endDate', None)
+        
         if start_date is not None and end_date is not None:
             return Dailystatus.objects.filter(startDate__gte=start_date, endDate__lte=end_date)
+        else:
+            return Dailystatus.objects.all()

@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="588c3409-12a4-4cbc-b6d9-d2661912eba3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailystatus/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailystatus/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dailystatus/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailystatus/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gptwStatusTrackerv2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gptwStatusTrackerv2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="gptwStatusTrackerv2/invalid/Django" />
+    </ignored-facets>
   </component>
   <component name="ProjectId" id="1Zw48NlktlWVxW87WqDI5pEOARY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

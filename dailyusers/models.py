@@ -13,7 +13,6 @@ class StatusTrackerUser(AbstractUser):
     REQUIRED_FIELDS = []
 
     objects = StatusTrackerUserManager()
-
     department = models.CharField(blank=True, max_length=250)
     band = models.CharField(blank=True, max_length=10)
     team = models.CharField(blank=True, max_length=250)
