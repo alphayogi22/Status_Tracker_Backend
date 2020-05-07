@@ -9,9 +9,9 @@ class Dailytask(models.Model):
     task = models.CharField(max_length=1000)
     partOfKra = models.BooleanField(default=False)
     noOfHours = models.IntegerField(null=True)
-    startTime = models.TimeField(null=True )
-    endTime = models.TimeField(null=True)
-    date = models.DateField(null=True)
+    startTime = models.TimeField(null=True, blank=True )
+    endTime = models.TimeField(null=True, blank=True)
+    date = models.DateField(auto_now_add=True)
     status = models.CharField(max_length=20)
-    remark = models.CharField(max_length=1000, null=True)
+    remark = models.CharField(max_length=1000, null=True, blank=True)
     

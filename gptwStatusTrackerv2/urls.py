@@ -29,6 +29,7 @@ urlpatterns = [
     path('', include('dailystatus.urls')),
     path('', include('kras.urls')),
     path('', include('krasheet.urls')),
+    path('', include('dailytask.urls')),
 
     url(r'^doc/$', schema_view),
 
